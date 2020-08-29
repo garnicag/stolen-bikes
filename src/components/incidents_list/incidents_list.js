@@ -92,7 +92,7 @@ export default class IncidentsList extends React.Component {
 
     const errorTemplate = (
       <React.Fragment>
-        No results matching your search were found.
+        No results matching your search were found
       </React.Fragment>
     );
 
