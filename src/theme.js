@@ -3,7 +3,7 @@ import * as styledComponents from "styled-components";
 const {
   default: styled,
   css,
-  injectGlobal,
+  createGlobalStyle,
   keyframes,
   ThemeProvider
 } = styledComponents;
@@ -13,4 +13,4 @@ export const theme = {
 };
 
 export default styled;
-export { css, injectGlobal, keyframes, ThemeProvider };
+export { css, createGlobalStyle, keyframes, ThemeProvider };

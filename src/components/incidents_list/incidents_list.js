@@ -109,7 +109,6 @@ export default class IncidentsList extends React.Component {
     return (
       <MainWrapper>
         {selectedTemplate}
-        <Paginator updatePage={this.updatePage} />
       </MainWrapper>
     );
   }
